@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20sp"
+        android:text="留言内容："
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" 
+        />
+
+    <ScrollView
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+        <EditText
+	        android:id="@+id/et_msgcontent"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dp"
+	        android:text=""
+	        android:hint="请在此输入留言内容！！"
+	        android:textColor="@android:color/holo_blue_dark"
+	        android:textSize="25sp" 
+	        />
+    </ScrollView>
+    
+    <Button 
+        android:id="@+id/bt_submit"
+        android:text="提  交"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        />
+</LinearLayout>

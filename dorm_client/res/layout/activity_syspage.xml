@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.youth.banner.Banner
+	    xmlns:app="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/banner"
+	    android:layout_width="match_parent"
+	    android:layout_height="180dp" />
+         
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray" >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_launcher" />
+
+        <com.xubo.scrolltextview.ScrollTextView
+            xmlns:scroll_text="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/text1_stv"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"
+            scroll_text:ellipsis="false"
+            scroll_text:singleLine="false"
+            scroll_text:textColor="@android:color/white"
+            scroll_text:textSize="14sp" />
+    </LinearLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="20dp"
+	    >
+        <ImageView
+            android:id="@+id/sysypage_imageview1"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/img1" />
+
+        <ImageView
+            android:id="@+id/sysypage_imageview2"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/sysypage_imageview1"
+            android:src="@drawable/img2" />
+	    <ImageView
+            android:id="@+id/sysypage_imageview3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentTop="true"
+           	android:layout_toRightOf="@id/sysypage_imageview2"
+            android:src="@drawable/img3" />
+	    <ImageView
+            android:id="@+id/sysypage_imageview4"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/sysypage_imageview1"
+            android:src="@drawable/img4" />
+
+        <ImageView
+            android:id="@+id/sysypage_imageview5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/sysypage_imageview2"
+            android:layout_toRightOf="@id/sysypage_imageview4"
+            android:src="@drawable/img5" />
+	    
+	</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" 
+        android:gravity="bottom"
+        android:weightSum="2"
+       >
+  
+	<Button 
+	    android:text="首页"
+	    android:id="@+id/syspage_mainpage"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_weight="1"
+	    android:textSize="20sp"
+	    />
+	<Button 
+	    android:text="我的"
+	    android:id="@+id/syspage_my"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:textSize="20sp"
+	    android:gravity="center"/>
+	</LinearLayout>
+</LinearLayout>

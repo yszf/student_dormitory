@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StuInfoServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.StuInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateStuInfoServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.UpdateStuInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangepwdServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.ChangepwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DormHealthServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.DormHealthServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryElecServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryElecServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryNetworkServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryNetworkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryDormInfoServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryDormInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryDormsServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryDormsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryNoticeServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryDormRuleServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryDormRuleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryMessageServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryReplyServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryReplyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MessageAddServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.MessageAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReplyAddServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.ReplyAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryLeaveRegServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryLeaveRegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryRepairServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryRepairServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RepairAddServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.RepairAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryPartNoticeServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryPartNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryEmailServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryEmailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangepwdServlet2</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.ChangepwdServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryDormInfoServlet2</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryDormInfoServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryDormInfoServlet3</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryDormInfoServlet3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryDormsServlet2</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryDormsServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ScoreAddServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.ScoreAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeNoticeServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.ChangeNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteNoticeServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.DeleteNoticeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteMessageServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.DeleteMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryLeaveRegServlet2</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.QueryLeaveRegServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ManagerInfoServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.ManagerInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateManagerInfoServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.UpdateManagerInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ServiceManInfoServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.ServiceManInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServiceManInfoServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.UpdateServiceManInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeRepairServlet</servlet-name>
+    <servlet-class>cn.edu.xsyu.dorm.action.ChangeRepairServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuInfoServlet</servlet-name>
+    <url-pattern>/stuInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateStuInfoServlet</servlet-name>
+    <url-pattern>/updateStuInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangepwdServlet</servlet-name>
+    <url-pattern>/changepwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DormHealthServlet</servlet-name>
+    <url-pattern>/dormHealthServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryElecServlet</servlet-name>
+    <url-pattern>/queryElecServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryNetworkServlet</servlet-name>
+    <url-pattern>/queryNetworkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDormInfoServlet</servlet-name>
+    <url-pattern>/queryDormInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDormsServlet</servlet-name>
+    <url-pattern>/queryDormsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryNoticeServlet</servlet-name>
+    <url-pattern>/queryNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDormRuleServlet</servlet-name>
+    <url-pattern>/queryDormRuleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryMessageServlet</servlet-name>
+    <url-pattern>/queryMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryReplyServlet</servlet-name>
+    <url-pattern>/queryReplyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageAddServlet</servlet-name>
+    <url-pattern>/messageAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplyAddServlet</servlet-name>
+    <url-pattern>/replyAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryLeaveRegServlet</servlet-name>
+    <url-pattern>/queryLeaveRegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryRepairServlet</servlet-name>
+    <url-pattern>/queryRepairServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RepairAddServlet</servlet-name>
+    <url-pattern>/repairAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryPartNoticeServlet</servlet-name>
+    <url-pattern>/queryPartNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryEmailServlet</servlet-name>
+    <url-pattern>/queryEmailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangepwdServlet2</servlet-name>
+    <url-pattern>/changepwdServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDormInfoServlet2</servlet-name>
+    <url-pattern>/queryDormInfoServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDormInfoServlet3</servlet-name>
+    <url-pattern>/queryDormInfoServlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDormsServlet2</servlet-name>
+    <url-pattern>/queryDormsServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreAddServlet</servlet-name>
+    <url-pattern>/scoreAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeNoticeServlet</servlet-name>
+    <url-pattern>/changeNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNoticeServlet</servlet-name>
+    <url-pattern>/deleteNoticeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteMessageServlet</servlet-name>
+    <url-pattern>/deleteMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryLeaveRegServlet2</servlet-name>
+    <url-pattern>/queryLeaveRegServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerInfoServlet</servlet-name>
+    <url-pattern>/managerInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateManagerInfoServlet</servlet-name>
+    <url-pattern>/updateManagerInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServiceManInfoServlet</servlet-name>
+    <url-pattern>/serviceManInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServiceManInfoServlet</servlet-name>
+    <url-pattern>/updateServiceManInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeRepairServlet</servlet-name>
+    <url-pattern>/changeRepairServlet</url-pattern>
+  </servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

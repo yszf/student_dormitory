@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/rule_siv"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ihome" 
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+	    android:id="@+id/tv_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_toLeftOf="@id/rule_siv"
+	    android:lines="2"
+	    android:text="学生公寓宿舍规章标题"
+	    android:textSize="25sp" />
+	<TextView 
+	    android:id="@+id/tv_issuer"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="发布人"
+	    android:textColor="#ff0000"
+	     android:textSize="15sp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@id/tv_title"
+	    />
+	<TextView
+	    android:id="@+id/tv_time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/tv_title"
+	    android:layout_alignRight="@id/tv_title"
+	    android:text="发布时间"
+	    android:textColor="#ff0000"
+	    android:textSize="15sp" 
+	    />
+</RelativeLayout>

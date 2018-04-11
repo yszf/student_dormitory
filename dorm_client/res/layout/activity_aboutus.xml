@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="30dip"
+	    android:gravity="center"
+	    android:text="关于我们"
+	    android:textSize="20dip"/>
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="60dip"
+	    android:gravity="center"
+	    android:text="努力让自己变得更好\n加油!\n加油!"
+	    />
+
+	<TextView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="150dip"
+	    android:gravity="center"
+	    android:text="感谢您的关注！" />
+
+</LinearLayout>

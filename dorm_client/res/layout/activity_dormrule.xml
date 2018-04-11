@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:text="宿舍管理规章制度"
+	    android:textSize="25dp"
+	    android:gravity="center"	    
+	    />
+	
+	<ListView
+	    android:id="@+id/lv_rule"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dip"
+	    android:text="宿舍管理规章制度第一章\n宿舍管理规章制度第二章\n宿舍管理规章制度第三章\n宿舍管理规章制度第四章\n宿舍管理规章制度第五章\n宿舍管理规章制度第六章\n宿舍管理规章制度第七章"
+		>
+	</ListView>
+
+</LinearLayout>

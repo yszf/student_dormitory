@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    <TextView 
+	    android:id="@+id/tv_issuer"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="留言人"
+	    android:textSize="20sp"
+	    android:layout_margin="3dp"
+	    android:textColor="@android:color/holo_blue_dark"
+	    android:layout_alignParentLeft="true"
+	    />
+    <TextView
+	    android:id="@+id/tv_time"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:text="留言时间"
+	    android:textColor="@android:color/holo_red_dark"
+	    android:textSize="20sp" 
+	    />
+    <TextView
+	    android:id="@+id/tv_content"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/tv_issuer"
+	    android:text="留言内容:你是傻瓜吗，怎么会，你就是个白痴"
+	    android:textSize="20sp" 
+	    />
+</RelativeLayout>

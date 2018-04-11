@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="修改密码"
+	    android:textSize="25dip"
+	    android:gravity="center"
+	    android:layout_marginTop="30dip"
+	    />
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip" >
+  
+	    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原  密  码："
+            android:textSize="20sp"
+            />
+	     <EditText
+	        android:id="@+id/oldpwd"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" 
+        	android:inputType="textPassword"
+        	android:text=""
+        	android:textSize="20sp"
+        	/>
+	</LinearLayout>
+		<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip" >
+  
+	    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新  密  码："
+            android:textSize="20sp"
+            />
+	     <EditText
+	        android:id="@+id/newpwd"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" 
+        	android:inputType="textPassword" 
+        	android:textSize="20sp"
+        	android:text=""
+        	/>
+	</LinearLayout>
+		<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip" >
+  
+	    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认密码："
+            android:textSize="20sp"/>
+	     <EditText
+	        android:id="@+id/redefpwd"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text=""
+        	android:textSize="20sp"
+        	android:inputType="textPassword" 
+        	/>
+	</LinearLayout>
+	
+	<Button 
+	    android:layout_marginTop="20dip"
+	    android:id="@+id/changepwd_submit"
+		android:layout_width="180dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:onClick="click"
+		android:textSize="20sp"
+		android:text=" 提 交 "/>
+</LinearLayout>
